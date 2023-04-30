@@ -9,4 +9,5 @@
 <script setup>
 const { number, increase } = useNumber()
 const doubled = computed(() => number.value * 2)
+// something
 </script>
